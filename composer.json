@@ -1,0 +1,37 @@
+{
+  "name": "larwell/laravel-quick-mcp",
+  "description": "Effortless Model Context Protocol (MCP) server integration for Laravel applications",
+  "keywords": ["laravel", "mcp", "ai-agents", "model-context-protocol", "larwell"],
+  "license": "MIT",
+  "homepage": "https://larwell.com",
+  "support": {
+    "issues": "https://github.com/developer-ishrafilkhan/laravel-quick-mcp/issues",
+    "source": "https://github.com/developer-ishrafilkhan/laravel-quick-mcp",
+    "website": "https://larwell.com"
+  },
+  "authors": [
+    {
+      "name": "Ishrafil Khan",
+      "email": "mail.ishrafil@gmail.com",
+      "homepage": "https://larwell.com",
+      "role": "Founder & Lead Developer"
+    }
+  ],
+  "require": {
+    "php": "^8.2",
+    "illuminate/support": "^10.0|^11.0|^12.0"
+  },
+  "autoload": {
+    "psr-4": {
+      "Larwell\\QuickMcp\\": "src/"
+    }
+  },
+  "extra": {
+    "laravel": {
+      "providers": [
+        "Larwell\\QuickMcp\\LaravelQuickMcpServiceProvider"
+      ]
+    }
+  },
+  "minimum-stability": "stable"
+}
